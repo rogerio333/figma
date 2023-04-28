@@ -1,27 +1,78 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .cabecalho {
-    background-color: #424E61;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.imagem1 {
+  width: 10%;
 }
 
-.cabecalho-imagem{
-    width: 20%;
+.cabecalho-item {
+  display: inline-block;
+  margin: 0 16px;
+  font-size: 24px;
+}
+.restante {
+  background: #85cfea;
 }
 
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
+.degrade {
+  background-image: linear-gradient(#000000, #18b4ed, #85cfea);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
 }
 
-.escola {
-    background-image: linear-gradient(red, yellow);
+.academia-div-conteudo {
+  width: 35%;
+}
+.academia-titulo {
+  padding: 24px 0;
+}
+.pilates {
+  width: 35%;
+}
+.academia-titulo {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.academia-todos {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.icones-div {
+  text-align: center;
+}
+.workoutu {
+  width: 200px;
+}
+.icones {
+  width: 24px;
+}
+
+.icones-div-dois {
+  text-align: center;
+}
+.futebol4 {
+  width: 200px;
+}
+.cabecalho2 {
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.imagem2 {
+  width: 8%;
 }
